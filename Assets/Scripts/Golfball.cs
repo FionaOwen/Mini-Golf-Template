@@ -21,6 +21,13 @@ public class Golfball : MonoBehaviour
         startPosition = transform.position;
     }
 
+    public void OnTriggerExit(Collider other)
+    {
+        if(other.tag == "PlayArea")
+        {
+            ResetPosition();
+        }
+    }
     // Update is called once per frame
     void Update()
     {
