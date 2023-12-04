@@ -20,6 +20,8 @@ public class ScoreCalculator : MonoBehaviour
             Instantiate(congratsPanel, gameObject.transform.position + prefabSpawnOffsetPosition, Quaternion.identity);
 
             flagPostCollider.enabled = false;
+
+            levelRestriction.SetActive(false);
         }
     }
     
