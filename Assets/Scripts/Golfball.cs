@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using NaughtyAttributes;
 using System;
+using System.Xml.Serialization;
 
 public class Golfball : MonoBehaviour
 {
@@ -11,16 +12,24 @@ public class Golfball : MonoBehaviour
     public float resetDistance;
 
     private Rigidbody _rigidbody;
+    public AudioSource ballStrike;
 
     // Start is called before the first frame update
     void Start()
     {
         _rigidbody = GetComponent<Rigidbody>();
-
+        ballStrike = GetComponent<AudioSource>();
         //cache start position
         startPosition = transform.position;
     }
 
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.tag == "GolfClub")
+        {
+            ballStrike.Play();
+        }
+    }
     public void OnTriggerExit(Collider other)
     {
         if(other.tag == "PlayArea")
@@ -28,6 +37,7 @@ public class Golfball : MonoBehaviour
             ResetPosition();
         }
     }
+    
     // Update is called once per frame
     void Update()
     {

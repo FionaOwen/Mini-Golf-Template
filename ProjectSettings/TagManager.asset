@@ -6,6 +6,7 @@ TagManager:
   tags:
   - PlayArea
   - GolfBall
+  - GolfClub
   layers:
   - Default
   - TransparentFX
