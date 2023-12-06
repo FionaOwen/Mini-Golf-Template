@@ -88,7 +88,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 1
+  m_PresetInfoIsWorld: 0
 --- !u!114 &5097500225949754337
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -169,13 +169,13 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 13e0602279f0e3643b8ebafe0e2bb980, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.865
   m_Pitch: 1
   Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 103
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -213,7 +213,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 0.555
       inSlope: 0
       outSlope: 0
       tangentMode: 0
