@@ -772,6 +772,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6980646062980975814, guid: 840d416895424874192bc9b5f201acb0,
         type: 3}
+      propertyPath: playOnAwake
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6980646062980975814, guid: 840d416895424874192bc9b5f201acb0,
+        type: 3}
       propertyPath: simulationSpeed
       value: 3
       objectReference: {fileID: 0}
@@ -793,7 +798,7 @@ PrefabInstance:
     - target: {fileID: 6980646062980975814, guid: 840d416895424874192bc9b5f201acb0,
         type: 3}
       propertyPath: InitialModule.startLifetime.scalar
-      value: 25
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6980646062980975814, guid: 840d416895424874192bc9b5f201acb0,
         type: 3}
@@ -886,6 +891,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6980646062980975814, guid: 840d416895424874192bc9b5f201acb0,
         type: 3}
+      propertyPath: playOnAwake
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6980646062980975814, guid: 840d416895424874192bc9b5f201acb0,
+        type: 3}
       propertyPath: ShapeModule.radius.value
       value: 15
       objectReference: {fileID: 0}
@@ -902,7 +912,7 @@ PrefabInstance:
     - target: {fileID: 6980646062980975814, guid: 840d416895424874192bc9b5f201acb0,
         type: 3}
       propertyPath: InitialModule.startLifetime.scalar
-      value: 25
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6980646062980975814, guid: 840d416895424874192bc9b5f201acb0,
         type: 3}

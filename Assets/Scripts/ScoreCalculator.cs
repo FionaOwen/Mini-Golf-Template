@@ -9,6 +9,7 @@ public class ScoreCalculator : MonoBehaviour
     [SerializeField]
     private CapsuleCollider flagPostCollider;
     public Vector3 prefabSpawnOffsetPosition;
+    public Quaternion prefabSpawnOffsetRotation;
     private void Start()
     {
         flagPostCollider = GetComponent<CapsuleCollider>();
@@ -17,7 +18,7 @@ public class ScoreCalculator : MonoBehaviour
     {
         if(other.tag == "GolfBall")
         {
-            Instantiate(congratsPanel, gameObject.transform.position + prefabSpawnOffsetPosition, Quaternion.identity);
+            Instantiate(congratsPanel, gameObject.transform.position + prefabSpawnOffsetPosition, prefabSpawnOffsetRotation);
 
             flagPostCollider.enabled = false;
 
