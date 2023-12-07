@@ -2403,7 +2403,7 @@ PrefabInstance:
     - target: {fileID: 1522221769037973036, guid: f6f0fffa107fc554b852d56845fbed1e,
         type: 3}
       propertyPath: m_Mass
-      value: 0.046
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 1522221769037973037, guid: f6f0fffa107fc554b852d56845fbed1e,
         type: 3}
@@ -3593,7 +3593,7 @@ PrefabInstance:
     - target: {fileID: 1522221769037973036, guid: f6f0fffa107fc554b852d56845fbed1e,
         type: 3}
       propertyPath: m_Mass
-      value: 0.046
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 1522221769037973037, guid: f6f0fffa107fc554b852d56845fbed1e,
         type: 3}
@@ -4172,7 +4172,7 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.2
+  m_Radius: 0.15
   m_Height: 1
   m_Direction: 1
   m_Center: {x: 0, y: 0.25, z: 0}
@@ -4192,7 +4192,7 @@ MonoBehaviour:
     type: 3}
   levelRestriction: {fileID: 979400459}
   flagPostCollider: {fileID: 0}
-  prefabSpawnOffsetPosition: {x: 0, y: 1, z: -1}
+  prefabSpawnOffsetPosition: {x: 0, y: 1.3, z: -1}
   prefabSpawnOffsetRotation: {x: 0, y: 0, z: 0, w: 0}
 --- !u!64 &150725132
 MeshCollider:
@@ -4447,7 +4447,7 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.2
+  m_Radius: 0.15
   m_Height: 1
   m_Direction: 1
   m_Center: {x: 0, y: 0.25, z: 0}
@@ -4467,7 +4467,7 @@ MonoBehaviour:
     type: 3}
   levelRestriction: {fileID: 604970892}
   flagPostCollider: {fileID: 0}
-  prefabSpawnOffsetPosition: {x: -1, y: 1, z: 0}
+  prefabSpawnOffsetPosition: {x: -1, y: 1.3, z: 0}
   prefabSpawnOffsetRotation: {x: 0, y: 0.70710677, z: 0, w: 0.70710677}
 --- !u!64 &155950248
 MeshCollider:
@@ -5852,7 +5852,7 @@ MeshCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -3245373269751653155, guid: b8c6dc286bffc8e41a8d676295a815eb, type: 3}
 --- !u!1 &219605188
@@ -7870,7 +7870,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 2755de18da42852418f0be4bbd00dd59,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.389
+      value: -0.421
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2755de18da42852418f0be4bbd00dd59,
         type: 3}
@@ -7974,7 +7974,7 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.2
+  m_Radius: 0.15
   m_Height: 1
   m_Direction: 1
   m_Center: {x: 0, y: 0.25, z: 0}
@@ -7994,7 +7994,7 @@ MonoBehaviour:
     type: 3}
   levelRestriction: {fileID: 235584874}
   flagPostCollider: {fileID: 0}
-  prefabSpawnOffsetPosition: {x: 0, y: 1, z: 0}
+  prefabSpawnOffsetPosition: {x: 0, y: 1.3, z: 1}
   prefabSpawnOffsetRotation: {x: 0, y: 0.76604444, z: 0, w: 0.64278764}
 --- !u!64 &355041035
 MeshCollider:
@@ -11274,7 +11274,7 @@ PrefabInstance:
     - target: {fileID: 1522221769037973036, guid: f6f0fffa107fc554b852d56845fbed1e,
         type: 3}
       propertyPath: m_Mass
-      value: 0.046
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 1522221769037973037, guid: f6f0fffa107fc554b852d56845fbed1e,
         type: 3}
@@ -14462,7 +14462,7 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.2
+  m_Radius: 0.15
   m_Height: 1
   m_Direction: 1
   m_Center: {x: 0, y: 0.25, z: 0}
@@ -14482,7 +14482,7 @@ MonoBehaviour:
     type: 3}
   levelRestriction: {fileID: 622222857}
   flagPostCollider: {fileID: 0}
-  prefabSpawnOffsetPosition: {x: 1, y: 1, z: 0}
+  prefabSpawnOffsetPosition: {x: 1, y: 1.3, z: 0}
   prefabSpawnOffsetRotation: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
 --- !u!64 &670141585
 MeshCollider:
@@ -16453,7 +16453,7 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.2
+  m_Radius: 0.15
   m_Height: 1
   m_Direction: 1
   m_Center: {x: 0, y: 0.25, z: 0}
@@ -16473,7 +16473,7 @@ MonoBehaviour:
     type: 3}
   levelRestriction: {fileID: 1054215389}
   flagPostCollider: {fileID: 0}
-  prefabSpawnOffsetPosition: {x: 0, y: 1, z: 1}
+  prefabSpawnOffsetPosition: {x: 0, y: 1.3, z: 1}
   prefabSpawnOffsetRotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
 --- !u!64 &759602345
 MeshCollider:
@@ -18659,7 +18659,7 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.2
+  m_Radius: 0.15
   m_Height: 1
   m_Direction: 1
   m_Center: {x: 0, y: 0.25, z: 0}
@@ -18679,7 +18679,7 @@ MonoBehaviour:
     type: 3}
   levelRestriction: {fileID: 1886328557}
   flagPostCollider: {fileID: 0}
-  prefabSpawnOffsetPosition: {x: 0, y: 1, z: -1}
+  prefabSpawnOffsetPosition: {x: 0, y: 1.3, z: -1}
   prefabSpawnOffsetRotation: {x: 0, y: 0, z: 0, w: 0}
 --- !u!64 &881238969
 MeshCollider:
@@ -19028,14 +19028,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 899758942}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.060830005, y: 0.59733295, z: -0.06218497, w: 0.79726166}
-  m_LocalPosition: {x: -71.806, y: 10.546, z: 27.589}
+  m_LocalRotation: {x: 0.0029475715, y: 0.61612356, z: 0.0018985698, w: 0.7876417}
+  m_LocalPosition: {x: -69.25, y: -3.529, z: 32.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 531002142}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: -1.301, y: 73.796, z: -9.897}
+  m_LocalEulerAnglesHint: {x: 0.132, y: 76.068, z: 0.379}
 --- !u!1 &906103753
 GameObject:
   m_ObjectHideFlags: 0
@@ -21238,7 +21238,7 @@ PrefabInstance:
     - target: {fileID: 1522221769037973036, guid: f6f0fffa107fc554b852d56845fbed1e,
         type: 3}
       propertyPath: m_Mass
-      value: 0.046
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 1522221769037973036, guid: f6f0fffa107fc554b852d56845fbed1e,
         type: 3}
@@ -21660,7 +21660,7 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.2
+  m_Radius: 0.15
   m_Height: 1
   m_Direction: 1
   m_Center: {x: 0, y: 0.25, z: 0}
@@ -21680,7 +21680,7 @@ MonoBehaviour:
     type: 3}
   levelRestriction: {fileID: 917287216}
   flagPostCollider: {fileID: 0}
-  prefabSpawnOffsetPosition: {x: 1, y: 1, z: 0}
+  prefabSpawnOffsetPosition: {x: 1, y: 1.3, z: 0}
   prefabSpawnOffsetRotation: {x: 0, y: 0, z: 0, w: 0}
 --- !u!64 &1001286116
 MeshCollider:
@@ -23766,7 +23766,7 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.2
+  m_Radius: 0.15
   m_Height: 1
   m_Direction: 1
   m_Center: {x: 0, y: 0.25, z: 0}
@@ -23786,7 +23786,7 @@ MonoBehaviour:
     type: 3}
   levelRestriction: {fileID: 1922116589}
   flagPostCollider: {fileID: 0}
-  prefabSpawnOffsetPosition: {x: 0, y: 1, z: 1}
+  prefabSpawnOffsetPosition: {x: 0, y: 1.3, z: 1}
   prefabSpawnOffsetRotation: {x: 0, y: -0.9848077, z: 0, w: 0.17364822}
 --- !u!64 &1086196666
 MeshCollider:
@@ -23944,6 +23944,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
       value: -1.244
+      objectReference: {fileID: 0}
+    - target: {fileID: 1522221769037973036, guid: f6f0fffa107fc554b852d56845fbed1e,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 1522221769037973037, guid: f6f0fffa107fc554b852d56845fbed1e,
         type: 3}
@@ -24929,7 +24934,7 @@ PrefabInstance:
     - target: {fileID: 1522221769037973036, guid: f6f0fffa107fc554b852d56845fbed1e,
         type: 3}
       propertyPath: m_Mass
-      value: 0.046
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 1522221769037973037, guid: f6f0fffa107fc554b852d56845fbed1e,
         type: 3}
@@ -25897,7 +25902,7 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.2
+  m_Radius: 0.15
   m_Height: 1
   m_Direction: 1
   m_Center: {x: 0, y: 0.25, z: 0}
@@ -25917,7 +25922,7 @@ MonoBehaviour:
     type: 3}
   levelRestriction: {fileID: 1054215389}
   flagPostCollider: {fileID: 0}
-  prefabSpawnOffsetPosition: {x: 0, y: 1, z: -1}
+  prefabSpawnOffsetPosition: {x: 0, y: 1.3, z: -1}
   prefabSpawnOffsetRotation: {x: 0, y: 0, z: 0, w: 0}
 --- !u!64 &1150392923
 MeshCollider:
@@ -27314,17 +27319,17 @@ PrefabInstance:
     - target: {fileID: 1522221769037973026, guid: f6f0fffa107fc554b852d56845fbed1e,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.099
+      value: -1.725
       objectReference: {fileID: 0}
     - target: {fileID: 1522221769037973026, guid: f6f0fffa107fc554b852d56845fbed1e,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.443
+      value: 0.775
       objectReference: {fileID: 0}
     - target: {fileID: 1522221769037973036, guid: f6f0fffa107fc554b852d56845fbed1e,
         type: 3}
       propertyPath: m_Mass
-      value: 0.046
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 1522221769037973037, guid: f6f0fffa107fc554b852d56845fbed1e,
         type: 3}
@@ -27724,7 +27729,7 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.2
+  m_Radius: 0.15
   m_Height: 1
   m_Direction: 1
   m_Center: {x: 0, y: 0.25, z: 0}
@@ -27744,7 +27749,7 @@ MonoBehaviour:
     type: 3}
   levelRestriction: {fileID: 97901971}
   flagPostCollider: {fileID: 0}
-  prefabSpawnOffsetPosition: {x: -1, y: 1, z: 0}
+  prefabSpawnOffsetPosition: {x: -1, y: 1.3, z: 0}
   prefabSpawnOffsetRotation: {x: 0, y: 0.86602545, z: 0, w: 0.49999997}
 --- !u!64 &1246696145
 MeshCollider:
@@ -28288,7 +28293,7 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.2
+  m_Radius: 0.15
   m_Height: 1
   m_Direction: 1
   m_Center: {x: 0, y: 0.25, z: 0}
@@ -28308,7 +28313,7 @@ MonoBehaviour:
     type: 3}
   levelRestriction: {fileID: 495091886}
   flagPostCollider: {fileID: 0}
-  prefabSpawnOffsetPosition: {x: 0, y: 1, z: -1}
+  prefabSpawnOffsetPosition: {x: 0, y: 1.3, z: -1}
   prefabSpawnOffsetRotation: {x: 0, y: -0.17364818, z: 0, w: 0.9848077}
 --- !u!64 &1275248397
 MeshCollider:
@@ -28343,7 +28348,7 @@ PrefabInstance:
     - target: {fileID: 1522221769037973036, guid: f6f0fffa107fc554b852d56845fbed1e,
         type: 3}
       propertyPath: m_Mass
-      value: 0.046
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 1522221769037973037, guid: f6f0fffa107fc554b852d56845fbed1e,
         type: 3}
@@ -29917,7 +29922,7 @@ PrefabInstance:
     - target: {fileID: 1522221769037973036, guid: f6f0fffa107fc554b852d56845fbed1e,
         type: 3}
       propertyPath: m_Mass
-      value: 0.046
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 1522221769037973037, guid: f6f0fffa107fc554b852d56845fbed1e,
         type: 3}
@@ -31999,7 +32004,7 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.2
+  m_Radius: 0.15
   m_Height: 1
   m_Direction: 1
   m_Center: {x: 0, y: 0.25, z: 0}
@@ -32019,7 +32024,7 @@ MonoBehaviour:
     type: 3}
   levelRestriction: {fileID: 1042414410}
   flagPostCollider: {fileID: 0}
-  prefabSpawnOffsetPosition: {x: 1, y: 1, z: 0}
+  prefabSpawnOffsetPosition: {x: 1, y: 1.3, z: 0}
   prefabSpawnOffsetRotation: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
 --- !u!64 &1446735308
 MeshCollider:
@@ -33068,7 +33073,7 @@ PrefabInstance:
     - target: {fileID: 1522221769037973036, guid: f6f0fffa107fc554b852d56845fbed1e,
         type: 3}
       propertyPath: m_Mass
-      value: 0.046
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 1522221769037973037, guid: f6f0fffa107fc554b852d56845fbed1e,
         type: 3}
@@ -34600,7 +34605,7 @@ MeshCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -3245373269751653155, guid: b8c6dc286bffc8e41a8d676295a815eb, type: 3}
 --- !u!1001 &1536020488
@@ -34624,7 +34629,7 @@ PrefabInstance:
     - target: {fileID: 1522221769037973036, guid: f6f0fffa107fc554b852d56845fbed1e,
         type: 3}
       propertyPath: m_Mass
-      value: 0.046
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 1522221769037973037, guid: f6f0fffa107fc554b852d56845fbed1e,
         type: 3}
@@ -36975,7 +36980,7 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.2
+  m_Radius: 0.15
   m_Height: 1
   m_Direction: 1
   m_Center: {x: 0, y: 0.25, z: 0}
@@ -36995,7 +37000,7 @@ MonoBehaviour:
     type: 3}
   levelRestriction: {fileID: 100155773}
   flagPostCollider: {fileID: 0}
-  prefabSpawnOffsetPosition: {x: 0, y: 1, z: 1}
+  prefabSpawnOffsetPosition: {x: 0, y: 1.3, z: 1}
   prefabSpawnOffsetRotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
 --- !u!64 &1661220964
 MeshCollider:
@@ -37720,6 +37725,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 0.377
       objectReference: {fileID: 0}
+    - target: {fileID: 1522221769037973036, guid: f6f0fffa107fc554b852d56845fbed1e,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 1522221769037973037, guid: f6f0fffa107fc554b852d56845fbed1e,
         type: 3}
       propertyPath: m_TagString
@@ -38069,7 +38079,7 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.2
+  m_Radius: 0.15
   m_Height: 1
   m_Direction: 1
   m_Center: {x: 0, y: 0.25, z: 0}
@@ -38089,7 +38099,7 @@ MonoBehaviour:
     type: 3}
   levelRestriction: {fileID: 1315529287}
   flagPostCollider: {fileID: 0}
-  prefabSpawnOffsetPosition: {x: 0, y: 1, z: 5}
+  prefabSpawnOffsetPosition: {x: 0, y: 1.3, z: 5}
   prefabSpawnOffsetRotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
 --- !u!64 &1692333975
 MeshCollider:
@@ -39843,7 +39853,7 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.2
+  m_Radius: 0.15
   m_Height: 1
   m_Direction: 1
   m_Center: {x: 0, y: 0.25, z: 0}
@@ -39863,7 +39873,7 @@ MonoBehaviour:
     type: 3}
   levelRestriction: {fileID: 873732841}
   flagPostCollider: {fileID: 0}
-  prefabSpawnOffsetPosition: {x: 0, y: 1, z: 1}
+  prefabSpawnOffsetPosition: {x: 0, y: 1.3, z: 1}
   prefabSpawnOffsetRotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
 --- !u!64 &1755288044
 MeshCollider:
@@ -40968,17 +40978,17 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 2755de18da42852418f0be4bbd00dd59,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.2917018
+      value: 3.318
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2755de18da42852418f0be4bbd00dd59,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.06368923
+      value: 0.453
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2755de18da42852418f0be4bbd00dd59,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -5.426859
+      value: -5.425
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2755de18da42852418f0be4bbd00dd59,
         type: 3}
@@ -41173,7 +41183,7 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.2
+  m_Radius: 0.15
   m_Height: 1
   m_Direction: 1
   m_Center: {x: 0, y: 0.25, z: 0}
@@ -41193,7 +41203,7 @@ MonoBehaviour:
     type: 3}
   levelRestriction: {fileID: 644920836}
   flagPostCollider: {fileID: 0}
-  prefabSpawnOffsetPosition: {x: -1, y: 1, z: 1}
+  prefabSpawnOffsetPosition: {x: -1, y: 1.3, z: 1}
   prefabSpawnOffsetRotation: {x: 0, y: 0.86602545, z: 0, w: 0.49999997}
 --- !u!64 &1794385555
 MeshCollider:
@@ -42962,7 +42972,7 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.2
+  m_Radius: 0.15
   m_Height: 1
   m_Direction: 1
   m_Center: {x: 0, y: 0.25, z: 0}
@@ -42982,7 +42992,7 @@ MonoBehaviour:
     type: 3}
   levelRestriction: {fileID: 1054215389}
   flagPostCollider: {fileID: 0}
-  prefabSpawnOffsetPosition: {x: 1, y: 1, z: 0}
+  prefabSpawnOffsetPosition: {x: 1, y: 1.3, z: 0}
   prefabSpawnOffsetRotation: {x: 0, y: -0.70710677, z: 0, w: 0.70710677}
 --- !u!64 &1877625984
 MeshCollider:
@@ -45212,7 +45222,7 @@ PrefabInstance:
     - target: {fileID: 1522221769037973036, guid: f6f0fffa107fc554b852d56845fbed1e,
         type: 3}
       propertyPath: m_Mass
-      value: 0.046
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 1522221769037973037, guid: f6f0fffa107fc554b852d56845fbed1e,
         type: 3}
@@ -45534,7 +45544,7 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.2
+  m_Radius: 0.15
   m_Height: 1
   m_Direction: 1
   m_Center: {x: 0, y: 0.25, z: 0}
@@ -45554,7 +45564,7 @@ MonoBehaviour:
     type: 3}
   levelRestriction: {fileID: 1922116589}
   flagPostCollider: {fileID: 0}
-  prefabSpawnOffsetPosition: {x: 0, y: 1, z: 1}
+  prefabSpawnOffsetPosition: {x: 0, y: 1.3, z: 1}
   prefabSpawnOffsetRotation: {x: 0, y: 0, z: 0, w: 0}
 --- !u!64 &1987935120
 MeshCollider:
@@ -47329,22 +47339,22 @@ PrefabInstance:
     - target: {fileID: 1522221769037973026, guid: f6f0fffa107fc554b852d56845fbed1e,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.29
+      value: -0.238
       objectReference: {fileID: 0}
     - target: {fileID: 1522221769037973026, guid: f6f0fffa107fc554b852d56845fbed1e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.765
+      value: 0.418
       objectReference: {fileID: 0}
     - target: {fileID: 1522221769037973026, guid: f6f0fffa107fc554b852d56845fbed1e,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -8.1
+      value: -7.783
       objectReference: {fileID: 0}
     - target: {fileID: 1522221769037973036, guid: f6f0fffa107fc554b852d56845fbed1e,
         type: 3}
       propertyPath: m_Mass
-      value: 0.046
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 1522221769037973037, guid: f6f0fffa107fc554b852d56845fbed1e,
         type: 3}
@@ -48734,7 +48744,7 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.2
+  m_Radius: 0.15
   m_Height: 1
   m_Direction: 1
   m_Center: {x: 0, y: 0.25, z: 0}
@@ -48754,7 +48764,7 @@ MonoBehaviour:
     type: 3}
   levelRestriction: {fileID: 856219723}
   flagPostCollider: {fileID: 0}
-  prefabSpawnOffsetPosition: {x: 0, y: 1, z: -1}
+  prefabSpawnOffsetPosition: {x: 0, y: 1.3, z: -1}
   prefabSpawnOffsetRotation: {x: 0, y: 0, z: 0, w: 0}
 --- !u!64 &2118533475
 MeshCollider:
@@ -49175,7 +49185,7 @@ PrefabInstance:
     - target: {fileID: 1522221769037973036, guid: f6f0fffa107fc554b852d56845fbed1e,
         type: 3}
       propertyPath: m_Mass
-      value: 0.046
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 1522221769037973037, guid: f6f0fffa107fc554b852d56845fbed1e,
         type: 3}
@@ -57622,43 +57632,43 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4963671626276604, guid: 4ec4cfadebd96154690192fbd49e28b8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 89
+      value: 88.98
       objectReference: {fileID: 0}
     - target: {fileID: 4963671626276604, guid: 4ec4cfadebd96154690192fbd49e28b8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 16.105528
+      value: 15.44
       objectReference: {fileID: 0}
     - target: {fileID: 4963671626276604, guid: 4ec4cfadebd96154690192fbd49e28b8, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 6
+      value: 6.06
       objectReference: {fileID: 0}
     - target: {fileID: 4963671626276604, guid: 4ec4cfadebd96154690192fbd49e28b8, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9743286
+      value: 0.98087484
       objectReference: {fileID: 0}
     - target: {fileID: 4963671626276604, guid: 4ec4cfadebd96154690192fbd49e28b8, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.08930304
+      value: -0.035001196
       objectReference: {fileID: 0}
     - target: {fileID: 4963671626276604, guid: 4ec4cfadebd96154690192fbd49e28b8, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.20643553
+      value: -0.19145536
       objectReference: {fileID: 0}
     - target: {fileID: 4963671626276604, guid: 4ec4cfadebd96154690192fbd49e28b8, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.009653986
+      value: -0.0020690535
       objectReference: {fileID: 0}
     - target: {fileID: 4963671626276604, guid: 4ec4cfadebd96154690192fbd49e28b8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -9.79
+      value: -3.983
       objectReference: {fileID: 0}
     - target: {fileID: 4963671626276604, guid: 4ec4cfadebd96154690192fbd49e28b8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -24.203
+      value: -22.108
       objectReference: {fileID: 0}
     - target: {fileID: 4963671626276604, guid: 4ec4cfadebd96154690192fbd49e28b8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 3.239
+      value: 0.537
       objectReference: {fileID: 0}
     - target: {fileID: 23115425920495306, guid: 4ec4cfadebd96154690192fbd49e28b8,
         type: 3}
